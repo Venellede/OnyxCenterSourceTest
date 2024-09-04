@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnyxCenterSourceTest", "OnyxCenterSourceTest\OnyxCenterSourceTest.csproj", "{F316EB07-8E4B-44FC-BF7F-7E1443E0C97A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnyxCenterSourceTest.xUnit", "OnyxCenterSourceTest.xUnit\OnyxCenterSourceTest.xUnit.csproj", "{AB2639B0-02FF-4FE0-A3C0-960D2C1996FD}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "onyxcentersourcetest.frontapp.client", "OnyxCenterSourceTest.FrontApp\onyxcentersourcetest.frontapp.client\onyxcentersourcetest.frontapp.client.esproj", "{DFEF44CC-D41D-4BEB-BB03-8423833E3730}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F316EB07-8E4B-44FC-BF7F-7E1443E0C97A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F316EB07-8E4B-44FC-BF7F-7E1443E0C97A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F316EB07-8E4B-44FC-BF7F-7E1443E0C97A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F316EB07-8E4B-44FC-BF7F-7E1443E0C97A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB2639B0-02FF-4FE0-A3C0-960D2C1996FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2639B0-02FF-4FE0-A3C0-960D2C1996FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2639B0-02FF-4FE0-A3C0-960D2C1996FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB2639B0-02FF-4FE0-A3C0-960D2C1996FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFEF44CC-D41D-4BEB-BB03-8423833E3730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFEF44CC-D41D-4BEB-BB03-8423833E3730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFEF44CC-D41D-4BEB-BB03-8423833E3730}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DFEF44CC-D41D-4BEB-BB03-8423833E3730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFEF44CC-D41D-4BEB-BB03-8423833E3730}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFEF44CC-D41D-4BEB-BB03-8423833E3730}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {220949D5-5D58-485D-AE0A-E366153FF7AF}
+	EndGlobalSection
+EndGlobal
