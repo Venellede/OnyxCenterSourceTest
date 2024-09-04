@@ -18,20 +18,11 @@ namespace OnyxCenterSourceTest.Tasks.Task4
         }
 
         [HttpGet]
-        [Route("")]
-        public async Task<IActionResult> Ok()
-        {
-            return Ok("Success!");
-        }
-
-        [HttpGet]
         [Route("{countryCode}/{vatId}")]
         public async Task<IActionResult> VerifyVat(string countryCode, string vatId)
         {
             var result = await _vatVerifier.Verify(countryCode, vatId);
             return Ok(result.ToString());
         }
-
-
     }
 }
